@@ -1,4 +1,5 @@
 /*
+
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -13,7 +14,7 @@ import ooc.enums.Month;
  *
  * @author Vianna
  */
-public class Car  CarInterface{
+public class Car implements  CarInterface{
 
     @Override
     public Map<Month, boolean[]> createAvailability() {
@@ -65,4 +66,5 @@ public class Car  CarInterface{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+
 }
