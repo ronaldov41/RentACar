@@ -14,7 +14,7 @@ import ooc.enums.Month;
  *
  * @author Vianna
  */
-public class Car  CarInterface{
+public class Car implements  CarInterface{
 
     @Override
     public Map<Month, boolean[]> createAvailability() {

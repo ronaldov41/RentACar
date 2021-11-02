@@ -5,3 +5,5 @@ nbproject/build-impl.xml
 *.properties
 *.xml
 /build/
+/bin/
+.classpath
