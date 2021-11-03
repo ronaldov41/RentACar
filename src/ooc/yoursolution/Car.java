@@ -15,6 +15,11 @@ import ooc.enums.Month;
  * @author Vianna
  */
 public class Car implements  CarInterface{
+	
+	private Make make;
+	private double rate;
+	private int Id;
+	private  Map<Month, boolean[]> Availability;
 
     @Override
     public Map<Month, boolean[]> createAvailability() {
@@ -23,27 +28,27 @@ public class Car implements  CarInterface{
 
     @Override
     public Make getMake() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return make; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public void setMake(Make make) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.make = make; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public double getRate() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return rate; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public void setRate(double rate) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.rate = rate; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public Map<Month, boolean[]> getAvailability() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       ; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -53,7 +58,7 @@ public class Car implements  CarInterface{
 
     @Override
     public int getId() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return Id; //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
